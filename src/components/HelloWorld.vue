@@ -1,20 +1,17 @@
 <template>
   <h1>{{ title }}</h1>
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank"
-      >Vite Documentation
-    </a>
-    |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
+    Yay!
   </p>
 </template>
 
 <script setup>
-const title = "Hello World Component"
+const title = "Hello World"
 </script>
 
 <style scoped>
-a {
-  color: #42b983;
+p {
+  color: #428BB9;
+  font-size: 1.5em;
 }
 </style>
